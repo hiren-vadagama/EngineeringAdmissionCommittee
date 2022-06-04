@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ehv87mar6cknqAIvIOIwRs03Nu6qZIwdg+3Du3QyXZWTrgobs+OBe6R7IK5lsoEFxX1ePNFgtvMayOit7XYcCg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hiren\\Documents\\Files\\WorkSpace\\hiren.vadagama-main\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteeServices\\EngineeringAdmissionCommitteeServices.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hiren\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\Hiren\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Hiren\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Hiren\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Hiren\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Hiren\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Hiren\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+C:\Users\Hiren\Documents\Files\WorkSpace\hiren.vadagama-main\EngineeringAdmissionCommittee\BackEnd\EngineeringAdmissionCommitteeDomain\bin\Debug\net6.0\EngineeringAdmissionCommitteeDomain.deps.json
+C:\Users\Hiren\Documents\Files\WorkSpace\hiren.vadagama-main\EngineeringAdmissionCommittee\BackEnd\EngineeringAdmissionCommitteeDomain\bin\Debug\net6.0\EngineeringAdmissionCommitteeDomain.dll
+C:\Users\Hiren\Documents\Files\WorkSpace\hiren.vadagama-main\EngineeringAdmissionCommittee\BackEnd\EngineeringAdmissionCommitteeDomain\bin\Debug\net6.0\EngineeringAdmissionCommitteeDomain.pdb
+C:\Users\Hiren\Documents\Files\WorkSpace\hiren.vadagama-main\EngineeringAdmissionCommittee\BackEnd\EngineeringAdmissionCommitteeDomain\obj\Debug\net6.0\EngineeringAdmissionCommitteeDomain.csproj.AssemblyReference.cache
+C:\Users\Hiren\Documents\Files\WorkSpace\hiren.vadagama-main\EngineeringAdmissionCommittee\BackEnd\EngineeringAdmissionCommitteeDomain\obj\Debug\net6.0\EngineeringAdmissionCommitteeDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hiren\Documents\Files\WorkSpace\hiren.vadagama-main\EngineeringAdmissionCommittee\BackEnd\EngineeringAdmissionCommitteeDomain\obj\Debug\net6.0\EngineeringAdmissionCommitteeDomain.AssemblyInfoInputs.cache
+C:\Users\Hiren\Documents\Files\WorkSpace\hiren.vadagama-main\EngineeringAdmissionCommittee\BackEnd\EngineeringAdmissionCommitteeDomain\obj\Debug\net6.0\EngineeringAdmissionCommitteeDomain.AssemblyInfo.cs
+C:\Users\Hiren\Documents\Files\WorkSpace\hiren.vadagama-main\EngineeringAdmissionCommittee\BackEnd\EngineeringAdmissionCommitteeDomain\obj\Debug\net6.0\EngineeringAdmissionCommitteeDomain.csproj.CoreCompileInputs.cache
+C:\Users\Hiren\Documents\Files\WorkSpace\hiren.vadagama-main\EngineeringAdmissionCommittee\BackEnd\EngineeringAdmissionCommitteeDomain\obj\Debug\net6.0\EngineeringAdmissionCommitteeDomain.dll
+C:\Users\Hiren\Documents\Files\WorkSpace\hiren.vadagama-main\EngineeringAdmissionCommittee\BackEnd\EngineeringAdmissionCommitteeDomain\obj\Debug\net6.0\refint\EngineeringAdmissionCommitteeDomain.dll
+C:\Users\Hiren\Documents\Files\WorkSpace\hiren.vadagama-main\EngineeringAdmissionCommittee\BackEnd\EngineeringAdmissionCommitteeDomain\obj\Debug\net6.0\EngineeringAdmissionCommitteeDomain.pdb
+C:\Users\Hiren\Documents\Files\WorkSpace\hiren.vadagama-main\EngineeringAdmissionCommittee\BackEnd\EngineeringAdmissionCommitteeDomain\obj\Debug\net6.0\ref\EngineeringAdmissionCommitteeDomain.dll
