@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hiren\\Documents\\Files\\WorkSpace\\hiren.vadagama-main\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteeDomain\\EngineeringAdmissionCommitteeDomain.csproj": {}
+    "C:\\Users\\Hiren\\Documents\\Files\\GitHiren\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteeDomain\\EngineeringAdmissionCommitteeDomain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hiren\\Documents\\Files\\WorkSpace\\hiren.vadagama-main\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteeDomain\\EngineeringAdmissionCommitteeDomain.csproj": {
+    "C:\\Users\\Hiren\\Documents\\Files\\GitHiren\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteeDomain\\EngineeringAdmissionCommitteeDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hiren\\Documents\\Files\\WorkSpace\\hiren.vadagama-main\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteeDomain\\EngineeringAdmissionCommitteeDomain.csproj",
+        "projectUniqueName": "C:\\Users\\Hiren\\Documents\\Files\\GitHiren\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteeDomain\\EngineeringAdmissionCommitteeDomain.csproj",
         "projectName": "EngineeringAdmissionCommitteeDomain",
-        "projectPath": "C:\\Users\\Hiren\\Documents\\Files\\WorkSpace\\hiren.vadagama-main\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteeDomain\\EngineeringAdmissionCommitteeDomain.csproj",
+        "projectPath": "C:\\Users\\Hiren\\Documents\\Files\\GitHiren\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteeDomain\\EngineeringAdmissionCommitteeDomain.csproj",
         "packagesPath": "C:\\Users\\Hiren\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hiren\\Documents\\Files\\WorkSpace\\hiren.vadagama-main\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteeDomain\\obj\\",
+        "outputPath": "C:\\Users\\Hiren\\Documents\\Files\\GitHiren\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteeDomain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hiren\\AppData\\Roaming\\NuGet\\NuGet.Config",

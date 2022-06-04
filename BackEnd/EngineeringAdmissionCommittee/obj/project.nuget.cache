@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ecwnJMuWk+WB86GvbWCOTkGpNgn08NkjYJLOgQrdmdvfSMfWuxsURvsFU3GBhKth0guq8MVyEspMfxot4Cl9pA==",
+  "dgSpecHash": "1QdzahHm38eWMBAJ+iAU0DqHPiXX4LuJ+3qgTZ4Mf9bmyTLVhmA/dSGedktIePltl/bBiT9QhqPD68GZfkh9tA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hiren\\Documents\\Files\\WorkSpace\\hiren.vadagama-main\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommittee\\EngineeringAdmissionCommitteeAPI.csproj",
+  "projectFilePath": "C:\\Users\\Hiren\\Documents\\Files\\GitHiren\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommittee\\EngineeringAdmissionCommitteeAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hiren\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Hiren\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

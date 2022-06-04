@@ -1846,11 +1846,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hiren\\Documents\\Files\\WorkSpace\\hiren.vadagama-main\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteePersistance\\EngineeringAdmissionCommitteePersistance.csproj",
+      "projectUniqueName": "C:\\Users\\Hiren\\Documents\\Files\\GitHiren\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteePersistance\\EngineeringAdmissionCommitteePersistance.csproj",
       "projectName": "EngineeringAdmissionCommitteePersistance",
-      "projectPath": "C:\\Users\\Hiren\\Documents\\Files\\WorkSpace\\hiren.vadagama-main\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteePersistance\\EngineeringAdmissionCommitteePersistance.csproj",
+      "projectPath": "C:\\Users\\Hiren\\Documents\\Files\\GitHiren\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteePersistance\\EngineeringAdmissionCommitteePersistance.csproj",
       "packagesPath": "C:\\Users\\Hiren\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hiren\\Documents\\Files\\WorkSpace\\hiren.vadagama-main\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteePersistance\\obj\\",
+      "outputPath": "C:\\Users\\Hiren\\Documents\\Files\\GitHiren\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteePersistance\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hiren\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1867,8 +1867,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Hiren\\Documents\\Files\\WorkSpace\\hiren.vadagama-main\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteeDomain\\EngineeringAdmissionCommitteeDomain.csproj": {
-              "projectPath": "C:\\Users\\Hiren\\Documents\\Files\\WorkSpace\\hiren.vadagama-main\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteeDomain\\EngineeringAdmissionCommitteeDomain.csproj"
+            "C:\\Users\\Hiren\\Documents\\Files\\GitHiren\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteeDomain\\EngineeringAdmissionCommitteeDomain.csproj": {
+              "projectPath": "C:\\Users\\Hiren\\Documents\\Files\\GitHiren\\EngineeringAdmissionCommittee\\BackEnd\\EngineeringAdmissionCommitteeDomain\\EngineeringAdmissionCommitteeDomain.csproj"
             }
           }
         }
