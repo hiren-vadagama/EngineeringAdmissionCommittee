@@ -22,5 +22,6 @@ namespace EngineeringAdmissionCommitteePersistance.Datamodels
         public CourseModel Course { get; set; }
         [Required]
         public int AvailableSeat { get; set; }
+        public int TotalSeat { get; set; }
     }
 }

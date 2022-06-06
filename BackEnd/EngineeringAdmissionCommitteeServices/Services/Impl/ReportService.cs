@@ -20,13 +20,19 @@ namespace EngineeringAdmissionCommitteeServices.Services.Impl
             _admissionRepository = admissionRepository ?? throw new ArgumentNullException(nameof(admissionRepository));
         }
 
-        public void GetCutOffRank()
+        public IEnumerable<CutOffMeritRank> GetCutOffMeritRank()
         {
-            var studentAdmission = _admissionRepository.GetStudentsAdmissionDetails();
-            var group = studentAdmission.GroupBy(student => student.CollegeWithCourseId)
-                                        .Select(student => new CutOffMeritRank {
-                                                                 CollegeWithCourseId = student.Key,
-                                                                 Rank = student.Max(x=>x.Rank)});
+            return _admissionRepository.GetCollgeCutOffRank();
+        }
+
+        public IEnumerable<CutOffMeritMark> GetCutOffMeritMark()
+        {
+            return _admissionRepository.GetCollgeCutOffMark();
+        }
+
+        public IEnumerable<CollegeVacantSeats> GetPercentageOfVacantSeat()
+        {
+            return _admissionRepository.GetPercentageOfVacantSeat();
         }
     }
 }

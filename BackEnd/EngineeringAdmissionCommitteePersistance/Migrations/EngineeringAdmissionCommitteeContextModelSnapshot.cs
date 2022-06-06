@@ -113,6 +113,9 @@ namespace EngineeringAdmissionCommitteePersistance.Migrations
                     b.Property<Guid>("CourseId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<int>("TotalSeat")
+                        .HasColumnType("int");
+
                     b.HasKey("CollegeWithCourseId");
 
                     b.HasIndex("CourseId");
@@ -128,63 +131,72 @@ namespace EngineeringAdmissionCommitteePersistance.Migrations
                             CollegeWithCourseId = new Guid("d41d301a-d9d7-44b8-a7d6-23d18491f811"),
                             AvailableSeat = 0,
                             CollegeId = new Guid("8abd8dbc-0369-468b-9293-a1d598767e4e"),
-                            CourseId = new Guid("75c6afbc-9eac-4d3d-98e2-97e4f0af84f5")
+                            CourseId = new Guid("75c6afbc-9eac-4d3d-98e2-97e4f0af84f5"),
+                            TotalSeat = 0
                         },
                         new
                         {
                             CollegeWithCourseId = new Guid("a9115fcd-854d-43c8-bffb-16fc22bee18a"),
                             AvailableSeat = 0,
                             CollegeId = new Guid("8abd8dbc-0369-468b-9293-a1d598767e4e"),
-                            CourseId = new Guid("846bd236-1c56-49c9-81da-3acf5c38ccbb")
+                            CourseId = new Guid("846bd236-1c56-49c9-81da-3acf5c38ccbb"),
+                            TotalSeat = 0
                         },
                         new
                         {
                             CollegeWithCourseId = new Guid("388afa3f-dd5c-4bb0-a637-7c6936cd4a41"),
                             AvailableSeat = 0,
                             CollegeId = new Guid("8abd8dbc-0369-468b-9293-a1d598767e4e"),
-                            CourseId = new Guid("1f7f5cea-b4a4-4ad3-839b-6d1a27850186")
+                            CourseId = new Guid("1f7f5cea-b4a4-4ad3-839b-6d1a27850186"),
+                            TotalSeat = 0
                         },
                         new
                         {
                             CollegeWithCourseId = new Guid("9a32dd49-a593-4f2f-a7ce-7f3db14a55c2"),
                             AvailableSeat = 0,
                             CollegeId = new Guid("84ef38fc-cb5a-4cd8-8fbc-6b79ec3450ad"),
-                            CourseId = new Guid("75c6afbc-9eac-4d3d-98e2-97e4f0af84f5")
+                            CourseId = new Guid("75c6afbc-9eac-4d3d-98e2-97e4f0af84f5"),
+                            TotalSeat = 0
                         },
                         new
                         {
                             CollegeWithCourseId = new Guid("458e5241-55fb-4c78-8b42-306c0369f86c"),
                             AvailableSeat = 0,
                             CollegeId = new Guid("84ef38fc-cb5a-4cd8-8fbc-6b79ec3450ad"),
-                            CourseId = new Guid("846bd236-1c56-49c9-81da-3acf5c38ccbb")
+                            CourseId = new Guid("846bd236-1c56-49c9-81da-3acf5c38ccbb"),
+                            TotalSeat = 0
                         },
                         new
                         {
                             CollegeWithCourseId = new Guid("48fef29e-e1e6-4ca5-ab5d-2a6327042d7a"),
                             AvailableSeat = 0,
                             CollegeId = new Guid("84ef38fc-cb5a-4cd8-8fbc-6b79ec3450ad"),
-                            CourseId = new Guid("1f7f5cea-b4a4-4ad3-839b-6d1a27850186")
+                            CourseId = new Guid("1f7f5cea-b4a4-4ad3-839b-6d1a27850186"),
+                            TotalSeat = 0
                         },
                         new
                         {
                             CollegeWithCourseId = new Guid("2e609033-65c6-4573-ad50-b488da9922a3"),
                             AvailableSeat = 0,
                             CollegeId = new Guid("bf53be06-2342-41f2-b957-0e57cfbfcbca"),
-                            CourseId = new Guid("75c6afbc-9eac-4d3d-98e2-97e4f0af84f5")
+                            CourseId = new Guid("75c6afbc-9eac-4d3d-98e2-97e4f0af84f5"),
+                            TotalSeat = 0
                         },
                         new
                         {
                             CollegeWithCourseId = new Guid("114b297e-0064-43aa-b6ba-0895495eda93"),
                             AvailableSeat = 0,
                             CollegeId = new Guid("bf53be06-2342-41f2-b957-0e57cfbfcbca"),
-                            CourseId = new Guid("846bd236-1c56-49c9-81da-3acf5c38ccbb")
+                            CourseId = new Guid("846bd236-1c56-49c9-81da-3acf5c38ccbb"),
+                            TotalSeat = 0
                         },
                         new
                         {
                             CollegeWithCourseId = new Guid("451e9b5d-3ce1-442e-bf20-b0c289101c5b"),
                             AvailableSeat = 0,
                             CollegeId = new Guid("bf53be06-2342-41f2-b957-0e57cfbfcbca"),
-                            CourseId = new Guid("1f7f5cea-b4a4-4ad3-839b-6d1a27850186")
+                            CourseId = new Guid("1f7f5cea-b4a4-4ad3-839b-6d1a27850186"),
+                            TotalSeat = 0
                         });
                 });
 

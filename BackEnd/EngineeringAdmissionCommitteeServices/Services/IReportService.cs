@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EngineeringAdmissionCommitteeDomain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,8 @@ namespace EngineeringAdmissionCommitteeServices.Services
 {
     public interface IReportService
     {
-        void GetCutOffRank();
+        IEnumerable<CutOffMeritRank> GetCutOffMeritRank();
+        IEnumerable<CutOffMeritMark> GetCutOffMeritMark();
+        IEnumerable<CollegeVacantSeats> GetPercentageOfVacantSeat();
     }
 }

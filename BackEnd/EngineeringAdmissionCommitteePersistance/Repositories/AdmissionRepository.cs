@@ -44,9 +44,34 @@ namespace EngineeringAdmissionCommitteePersistance.Repositories
                 .ThenInclude(student => student.Merit));
         }
 
-        public void GetCollgeCutOffRank()
+        public IEnumerable<CutOffMeritRank> GetCollgeCutOffRank()
         {
-            
+            return _context.Admissions.Include(admission => admission.Student)
+                                    .ThenInclude(student => student.Merit)
+                                    .GroupBy(college => college.CollegeWithCourseId)
+                                    .Select(student => new CutOffMeritRank { CollegeWithCourseId = student.Key, Rank = student.Max(x => x.Student.Merit.Rank) });
+        }
+
+        public IEnumerable<CutOffMeritMark> GetCollgeCutOffMark()
+        {
+            return _context.Admissions.Include(admission => admission.Student)
+                                    .GroupBy(college => college.CollegeWithCourseId)
+                                    .Select(student => new CutOffMeritMark
+                                    {
+                                        CollegeWithCourseId = student.Key,
+                                        BoardMark = student.Min(x => x.Student.BoardMark),
+                                        GujcetMark = student.Min(x => x.Student.GujcetMark)
+                                    });
+        }
+
+        public IEnumerable<CollegeVacantSeats> GetPercentageOfVacantSeat()
+        {
+            return _context.CollegeWithCourses
+                                    .Select(student => new CollegeVacantSeats
+                                    {
+                                        CollegeWithCourseId = student.CollegeWithCourseId,
+                                        PerOfVacantSeats = student.AvailableSeat * 100 / student.TotalSeat
+                                    });
         }
     }
 }

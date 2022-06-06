@@ -11,7 +11,9 @@ namespace EngineeringAdmissionCommitteeDomain.Repositories
     {
         void StudentAdmission(Admission admission);
         bool IsStudentAdmitted(Guid studentId);
-        void GetCollgeCutOffRank();
+        IEnumerable<CutOffMeritRank> GetCollgeCutOffRank();
+        IEnumerable<CutOffMeritMark> GetCollgeCutOffMark();
+        IEnumerable<CollegeVacantSeats> GetPercentageOfVacantSeat();
         IEnumerable<StudentAdmission> GetStudentsAdmissionDetails();
     }
 }

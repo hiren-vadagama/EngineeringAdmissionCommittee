@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using EngineeringAdmissionCommitteeAPI.Models;
 using EngineeringAdmissionCommitteeServices.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,13 +20,41 @@ namespace EngineeringAdmissionCommitteeAPI.Controllers
                 throw new ArgumentNullException(nameof(mapper));
         }
 
-        [HttpGet]
-        public ActionResult GetCutOffRank()
+        [HttpGet("cut-off-rank")]
+        public ActionResult<IEnumerable<CutOffMeritRankDto>> GetCutOffMeritRank()
         {
             try
             {
-                _reportService.GetCutOffRank();
-                return NoContent();
+                var cutOffMeritRankEntity = _reportService.GetCutOffMeritRank();
+                return Ok(_mapper.Map<IEnumerable<CutOffMeritRankDto>>(cutOffMeritRankEntity));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("cut-off-mark")]
+        public ActionResult<IEnumerable<CutOffMeritMarkDto>> GetCutOffMeritMark()
+        {
+            try
+            {
+                var cutOffMeritMarkEntity = _reportService.GetCutOffMeritMark();
+                return Ok(_mapper.Map<IEnumerable<CutOffMeritMarkDto>>(cutOffMeritMarkEntity));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("vacant-seat")]
+        public ActionResult<IEnumerable<CollegeVacantSeatsDto>> GetPercentageOfVacantSeat()
+        {
+            try
+            {
+                var perOfVacantSeatEntity = _reportService.GetPercentageOfVacantSeat();
+                return Ok(_mapper.Map<IEnumerable<CollegeVacantSeatsDto>>(perOfVacantSeatEntity));
             }
             catch (Exception ex)
             {
